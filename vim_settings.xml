@@ -6,6 +6,15 @@
       <file name="$USER_HOME$/Projects/Eurolife2.0/webapp/src/routes/root/modules/health/epics.js" timestamp="1512547567920">
         <mark key="[" line="1172" column="70" />
       </file>
+      <file name="$USER_HOME$/Projects/Eurolife2.0/webapp/src/routes/root/modules/user/epics.js" timestamp="1512633846267">
+        <mark key="[" line="104" column="30" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/webstorm64.vmoptions" timestamp="1512633360165">
+        <mark key="[" line="7" column="2" />
+      </file>
+      <file name="$USER_HOME$/Projects/Eurolife2.0/webapp/src/model-services/user/rest/auth.js" timestamp="1512633502099">
+        <mark key="[" line="28" column="9" />
+      </file>
     </filemarks>
     <jumps />
     <registers />
@@ -19,6 +28,13 @@
       <history-expr />
       <history-input />
     </history>
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
 </application>
