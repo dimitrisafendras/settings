@@ -3,13 +3,27 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="/Dummy.txt" timestamp="1512988125541">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Projects/Eurolife2.0/webapp/src/routes/root/components/timelineSidebar/style.js" timestamp="1512988141949">
+        <mark key="[" line="45" column="22" />
+        <mark key="]" line="45" column="22" />
+        <mark key="." line="45" column="22" />
+      </file>
       <file name="$USER_HOME$/Projects/Eurolife2.0/webapp/src/routes/root/modules/health/epics.js" timestamp="1512547567920">
         <mark key="[" line="1172" column="70" />
       </file>
-      <file name="$USER_HOME$/Projects/Eurolife2.0/webapp/src/routes/root/modules/user/epics.js" timestamp="1512633657232" />
     </filemarks>
     <jumps />
-    <registers />
+    <registers>
+      <register name="&quot;" type="4">
+        <text>1</text>
+      </register>
+      <register name="-" type="4">
+        <text>1</text>
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>
@@ -20,6 +34,10 @@
       <history-expr />
       <history-input />
     </history>
-    <shortcut-conflicts />
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
   </component>
 </application>
