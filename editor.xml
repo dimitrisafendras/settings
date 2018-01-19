@@ -1,12 +1,5 @@
 <application>
-  <component name="EditorSettings">
-    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
-  </component>
   <component name="JSEditorOptions">
     <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
-  </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
   </component>
 </application>
