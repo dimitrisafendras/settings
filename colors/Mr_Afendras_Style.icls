@@ -1,11 +1,11 @@
-<scheme name="Darcula copy" version="142" parent_scheme="Darcula">
+<scheme name="Mr.Afendras'Style" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2017-11-28T23:19:33</property>
+    <property name="created">2018-01-26T10:47:54</property>
     <property name="ide">idea</property>
-    <property name="ideVersion">2017.2.6.0.0</property>
-    <property name="modified">2018-01-26T10:39:37</property>
-    <property name="originalScheme">_@user_Darcula</property>
+    <property name="ideVersion">2017.3.3.0.0</property>
+    <property name="modified">2018-01-26T10:55:10</property>
+    <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="18" />
   <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
@@ -84,7 +84,7 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="9575cd" />
+        <option name="FOREGROUND" value="7986cb" />
       </value>
     </option>
     <option name="JS.INVALID_STRING_ESCAPE">
@@ -156,27 +156,37 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="c0c0c0" />
+        <option name="FOREGROUND" value="cfd8dc" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="638e5e" />
+        <option name="FOREGROUND" value="7cb342" />
+      </value>
+    </option>
+    <option name="XML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="64b5f6" />
+      </value>
+    </option>
+    <option name="XML_PROLOGUE">
+      <value>
+        <option name="FOREGROUND" value="ffb300" />
       </value>
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="d3af62" />
+        <option name="FOREGROUND" value="ffb300" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
       <value>
-        <option name="FOREGROUND" value="c0c0c0" />
+        <option name="FOREGROUND" value="cfd8dc" />
       </value>
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="ff7f50" />
+        <option name="FOREGROUND" value="f4511e" />
       </value>
     </option>
   </attributes>
