@@ -4,7 +4,7 @@
     <property name="created">2018-01-26T10:47:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2018-01-26T13:01:53</property>
+    <property name="modified">2018-01-26T15:50:40</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="18" />
@@ -114,7 +114,7 @@
     </option>
     <option name="JS.NUMBER">
       <value>
-        <option name="FOREGROUND" value="bcd4" />
+        <option name="FOREGROUND" value="ec407a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
