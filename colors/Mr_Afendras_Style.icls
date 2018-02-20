@@ -4,7 +4,7 @@
     <property name="created">2018-01-26T10:47:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2018-01-26T11:02:45</property>
+    <property name="modified">2018-01-26T15:50:40</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="18" />
@@ -53,6 +53,7 @@
     <option name="JS.COMMA">
       <value>
         <option name="FOREGROUND" value="fb8c00" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.DOT">
@@ -114,6 +115,7 @@
     <option name="JS.NUMBER">
       <value>
         <option name="FOREGROUND" value="ec407a" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.OPERATION_SIGN">
@@ -142,6 +144,7 @@
     <option name="JS.SEMICOLON">
       <value>
         <option name="FOREGROUND" value="fb8c00" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.STRING">
@@ -176,7 +179,7 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="ffb300" />
+        <option name="FOREGROUND" value="ffca28" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
@@ -186,7 +189,7 @@
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="f4511e" />
+        <option name="FOREGROUND" value="ff7043" />
       </value>
     </option>
   </attributes>
