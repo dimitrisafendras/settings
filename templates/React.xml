@@ -208,7 +208,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ss" value="import { jss } from 'components';&#10;import { muiTheme } from 'styles';&#10;import { fade } from 'material-ui/utils/colorManipulator';&#10;&#10;const styles = {&#10;&#10;};&#10;&#10;const classes = jss.createStyleSheet(styles).attach().classes;&#10;&#10;export {&#10;  classes,&#10;  styles,&#10;};&#10;" description="Style sheet" toReformat="false" toShortenFQNames="true">
+  <template name="ss" value="import { jss } from 'components';&#10;import { muiTheme, fontStyle } from 'styles';&#10;import { fade } from 'material-ui/utils/colorManipulator';&#10;&#10;const styles = {&#10;&#10;};&#10;&#10;const classes = jss.createStyleSheet(styles).attach().classes;&#10;&#10;export {&#10;  classes,&#10;  styles,&#10;};&#10;" description="Style sheet" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
