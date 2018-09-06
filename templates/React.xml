@@ -1,5 +1,5 @@
 <templateSet group="React">
-  <template name="cc" value="import React, { Component } from 'react';&#10;import { connectProps } from 'store';&#10;import { FlexContainer } from 'components';&#10;&#10;import {&#10;  classes,&#10;  styles,&#10;} from './style';&#10;&#10;type Props = {&#10;&#10;};&#10;&#10;class $TM_FILENAME_BASE$ extends Component {&#10;&#10;  constructor(props: Props) {&#10;    super(props);&#10;    this.state = {&#10;    };&#10;  };&#10;&#10;  render() {&#10;    return (&#10;     &lt;FlexContainer&gt;&#10;      $END$&#10;     &lt;/FlexContainer&gt;&#10;    );&#10;  }&#10;}&#10;&#10;export default connectProps(&#10;)($TM_FILENAME_BASE$);&#10;" description="Class react component" toReformat="false" toShortenFQNames="true">
+  <template name="cc" value="import React, { Component } from 'react';&#10;import { connectProps } from 'store';&#10;import { FlexContainer } from 'library';&#10;&#10;import {&#10;  classes,&#10;  styles,&#10;} from './style';&#10;&#10;type Props = {&#10;&#10;};&#10;&#10;class $TM_FILENAME_BASE$ extends Component {&#10;&#10;  constructor(props: Props) {&#10;    super(props);&#10;    this.state = {&#10;    };&#10;  };&#10;&#10;  render() {&#10;    return (&#10;     &lt;FlexContainer&gt;&#10;      $END$&#10;     &lt;/FlexContainer&gt;&#10;    );&#10;  }&#10;}&#10;&#10;export default connectProps(&#10;)($TM_FILENAME_BASE$);&#10;" description="Class react component" toReformat="false" toShortenFQNames="true">
     <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
@@ -201,14 +201,14 @@
   <template name="scu" value="shouldComponentUpdate(nextProps, nextState) {&#10; $END$&#10;}&#10;" description="Invoked before rendering when new props or state are being received." toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="fc" value="import React from 'react';&#10;import { connectProps } from 'store';&#10;import { FlexContainer } from 'components';&#10;&#10;import {&#10;  classes,&#10;  styles,&#10;} from './style';&#10;&#10;type Props = {&#10;};&#10;&#10;const $TM_FILENAME_BASE$ = (&#10;  {&#10;  }: Props) =&gt; {&#10;  return (&#10;    &lt;FlexContainer&gt;&#10;      $END$&#10;    &lt;/FlexContainer&gt;&#10;  );&#10;};&#10;&#10;export default connectProps()($TM_FILENAME_BASE$);&#10;" description="React functional component" toReformat="false" toShortenFQNames="true">
+  <template name="fc" value="import React from 'react';&#10;import { connectProps } from 'store';&#10;import { FlexContainer } from 'library';&#10;&#10;import {&#10;  classes,&#10;  styles,&#10;} from './style';&#10;&#10;type Props = {&#10;};&#10;&#10;const $TM_FILENAME_BASE$ = (&#10;  {&#10;  }: Props) =&gt; {&#10;  return (&#10;    &lt;FlexContainer&gt;&#10;      $END$&#10;    &lt;/FlexContainer&gt;&#10;  );&#10;};&#10;&#10;export default connectProps()($TM_FILENAME_BASE$);&#10;" description="React functional component" toReformat="false" toShortenFQNames="true">
     <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ss" value="import { jss } from 'components';&#10;import { muiTheme, fontStyle } from 'styles';&#10;import { fade } from 'material-ui/utils/colorManipulator';&#10;&#10;const styles = {&#10;&#10;};&#10;&#10;const classes = jss.createStyleSheet(styles).attach().classes;&#10;&#10;export {&#10;  classes,&#10;  styles,&#10;};&#10;" description="Style sheet" toReformat="false" toShortenFQNames="true">
+  <template name="ss" value="import {jss, muiTheme, fontStyle } from 'styles';&#10;import { fade } from 'material-ui/utils/colorManipulator';&#10;&#10;const styles = {&#10;&#10;};&#10;&#10;const classes = jss.createStyleSheet(styles).attach().classes;&#10;&#10;export {&#10;  classes,&#10;  styles,&#10;};&#10;" description="Style sheet" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
