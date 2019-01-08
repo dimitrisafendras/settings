@@ -4,7 +4,7 @@
     <property name="created">2018-01-26T10:47:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2018-11-20T14:27:33</property>
+    <property name="modified">2019-01-08T14:17:39</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -16,14 +16,29 @@
     <option name="VISUAL_INDENT_GUIDE" value="ffffff" />
   </colors>
   <attributes>
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="cfd8dc" />
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="7cb342" />
+      </value>
+    </option>
+    <option name="HTML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="64b5f6" />
+      </value>
+    </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="ff7f50" />
+        <option name="FOREGROUND" value="ffb300" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="ff7f50" />
+        <option name="FOREGROUND" value="ff7043" />
       </value>
     </option>
     <option name="JS.BADCHARACTER">
