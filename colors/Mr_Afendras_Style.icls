@@ -4,7 +4,7 @@
     <property name="created">2018-01-26T10:47:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2019-01-14T22:20:44</property>
+    <property name="modified">2019-01-14T23:22:21</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -68,7 +68,7 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="64b5f6" />
+        <option name="FOREGROUND" value="29b6f6" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
