@@ -4,7 +4,7 @@
     <property name="created">2018-01-26T10:47:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2019-01-14T21:39:33</property>
+    <property name="modified">2019-01-14T22:20:44</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -16,6 +16,8 @@
     <option name="VISUAL_INDENT_GUIDE" value="ffffff" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE" />
     <option name="CSS.COLON">
       <value>
         <option name="FOREGROUND" value="c5cae9" />
@@ -24,11 +26,6 @@
       </value>
     </option>
     <option name="CSS.COLOR" baseAttributes="CSS.IDENT" />
-    <option name="CSS.IDENT">
-      <value>
-        <option name="FOREGROUND" value="64b5f6" />
-      </value>
-    </option>
     <option name="CSS.IMPORTANT" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.TAG_NAME" baseAttributes="HTML_TAG_NAME" />
@@ -55,6 +52,12 @@
       <value>
         <option name="FOREGROUND" value="77b767" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FOREGROUND" value="8d6e63" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
@@ -154,9 +157,12 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="ffca28" />
+        <option name="FOREGROUND" value="ffc107" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
+    </option>
+    <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
+      <value />
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
@@ -169,9 +175,12 @@
     <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="ff7043" />
+        <option name="FOREGROUND" value="ff5722" />
       </value>
     </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
+    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JAVA_VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="JS.BADCHARACTER">
       <value>
         <option name="FOREGROUND" value="e53935" />
@@ -221,6 +230,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="JSP_DIRECTIVE_NAME" baseAttributes="DEFAULT_KEYWORD" />
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
     <option name="SASS_INTERPOLATION">
       <value>
@@ -230,6 +240,8 @@
       </value>
     </option>
     <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
     <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
     <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY" />
     <option name="XML_PROLOGUE">
@@ -245,7 +257,7 @@
     <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="ff7043" />
+        <option name="FOREGROUND" value="ff5722" />
       </value>
     </option>
   </attributes>
