@@ -33,17 +33,7 @@
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="importitems" value="import {$ITEM$$END$} from &quot;$MODULE$&quot;;&#10;" description="Import statement - import {b} from 'a'" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
   <template name="importns" value="import * as $ITEM$ from &quot;$MODULE$&quot;;&#10;$END$" description="Import statement - import * as b from 'a'" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
-    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="importdefault" value="import $ITEM$ from &quot;$MODULE$&quot;;&#10;$END$" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
     <context />
@@ -76,7 +66,8 @@
   <template name="flow" value="// @flow" description="Inserts @flow annotation" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="log" value="console.log('$END$', )" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="log" value="console.log('$NAME$', $END$)" description="console.log" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
