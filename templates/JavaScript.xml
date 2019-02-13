@@ -90,4 +90,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="jsc" value="import _ from 'lodash';&#10;&#10;class $TM_FILENAME_BASE$ {&#10;  constructor() {&#10;  }&#10;  // Getter&#10;  get func() {&#10;    return console.log('&gt;&gt;&gt;&gt;');&#10;  }&#10;  // Method&#10;  calcFunc() {&#10;    return console.log('&gt;&gt;&gt;&gt;&gt;&gt;');&#10;  }&#10;}&#10;&#10;export default $TM_FILENAME_BASE$" description="Javascript class" toReformat="false" toShortenFQNames="true">
+    <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
