@@ -66,7 +66,7 @@
   <template name="flow" value="// @flow" description="Inserts @flow annotation" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="log" value="console.log('$NAME$', $END$)" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="log" value="console.log('$NAME$&gt;&gt;&gt;&gt;', $END$)" description="console.log" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />

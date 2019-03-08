@@ -222,4 +222,12 @@
     <variable name="TM_FILENAME_BASE" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="sc" value="import styled from 'styled-components';&#10;import PropTypes from 'prop-types';&#10;&#10;export const $NAME$ = styled.$ELEMENT$`&#10;$END$&#10;`;&#10;&#10;$NAME$.propTypes = {&#10;};" description="styled react component" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
