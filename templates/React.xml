@@ -201,7 +201,7 @@
   <template name="scu" value="shouldComponentUpdate(nextProps, nextState) {&#10; $END$&#10;}&#10;" description="Invoked before rendering when new props or state are being received." toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="fc" value="import React from 'react';&#10;&#10;export const $TM_FILENAME_BASE$ = (&#10;    {&#10;        id,&#10;        className,&#10;    }) =&gt; &#10;       &lt;div&#10;           id={id}&#10;           className={className}&#10;       &gt;&#10;        $END$&#10;       &lt;/div&gt;&#10;" description="React functional component" toReformat="false" toShortenFQNames="true">
+  <template name="fc" value="import React from 'react';&#10;import './$TM_FILENAME_BASE$.scss'&#10;&#10;export const $TM_FILENAME_BASE$ = (&#10;    {&#10;        id,&#10;        className,&#10;    }) =&gt; &#10;       &lt;div&#10;           id={id}&#10;           className={`$TM_FILENAME_BASE$ ${className}`}&#10;       &gt;&#10;        $END$&#10;       &lt;/div&gt;&#10;" description="React functional component" toReformat="false" toShortenFQNames="true">
     <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
