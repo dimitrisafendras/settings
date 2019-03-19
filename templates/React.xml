@@ -1,5 +1,5 @@
 <templateSet group="React">
-  <template name="cc" value="import React, { Component } from 'react';&#10;&#10;class $TM_FILENAME_BASE$ extends Component {&#10; render() {&#10;  return (&#10;   &lt;div&gt;&#10;    $END$&#10;   &lt;/div&gt;&#10;  );&#10; }&#10;}&#10;&#10;export default $TM_FILENAME_BASE$;" description="Class react component" toReformat="false" toShortenFQNames="true">
+  <template name="cc" value="import React, { Component } from 'react';&#10;import './$TM_FILENAME_BASE$.scss';&#10;export class $TM_FILENAME_BASE$ extends Component {&#10;     render() {&#10;          return (&#10;               &lt;div&gt;&#10;                    $END$&#10;               &lt;/div&gt;&#10;          );&#10;     }&#10;}" description="Class react component" toReformat="false" toShortenFQNames="true">
     <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="ECMAScript6" value="true" />
