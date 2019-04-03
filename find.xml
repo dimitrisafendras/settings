@@ -14,8 +14,8 @@
     <mask>*.css</mask>
     <mask>*.</mask>
     <mask>*.groovy</mask>
+    <mask>*.scss</mask>
     <mask>*.ts</mask>
     <mask>*.ftlh</mask>
-    <mask>*.scss</mask>
   </component>
 </application>
