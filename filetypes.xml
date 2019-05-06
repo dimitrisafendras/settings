@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="deposit-limitis-summary-funds" type="FTL" />
       <mapping pattern="deposit-limitis-summary-funds.ftlh" type="PLAIN_TEXT" />
+      <mapping pattern="oiuyg" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
