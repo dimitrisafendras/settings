@@ -11,13 +11,11 @@
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="fin" value="for ($VARKIND$ $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
+  <template name="itin" value="for ($VARKIND$ $VAR$ in $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="var" alwaysStopAt="false" />
     <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
     <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
+    <context />
   </template>
   <template name="itar" value="for ($VARKIND$ $INDEX$ = 0; $INDEX$ &lt; $ARRAY$.length; $INDEX$++) {&#10;  $VARKIND2$ $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VARKIND" expression="jsSuggestDefaultVariableKind(false)" defaultValue="var" alwaysStopAt="false" />
@@ -82,19 +80,20 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="fof" value="for ($VARKIND$ $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of)" toReformat="true" toShortenFQNames="true">
-    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="var" alwaysStopAt="false" />
-    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
-    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+  <template name="importi" value="import {$ITEM$$END$} from &quot;$MODULE$&quot;;&#10;" description="Import statement - import {b} from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JS_STATEMENT" value="true" />
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="jsc" value="import _ from 'lodash';&#10;&#10;class $TM_FILENAME_BASE$ {&#10;  constructor() {&#10;  }&#10;  // Getter&#10;  get func() {&#10;    return console.log('&gt;&gt;&gt;&gt;');&#10;  }&#10;  // Method&#10;  calcFunc() {&#10;    return console.log('&gt;&gt;&gt;&gt;&gt;&gt;');&#10;  }&#10;}&#10;&#10;export default $TM_FILENAME_BASE$" description="Javascript class" toReformat="false" toShortenFQNames="true">
-    <variable name="TM_FILENAME_BASE" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="importd" value="import $ITEM$ from &quot;$MODULE$&quot;;&#10;$END$" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>

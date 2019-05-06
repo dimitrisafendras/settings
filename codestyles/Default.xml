@@ -1,5 +1,6 @@
 <code_scheme name="Default" version="173">
-  <TypeScriptCodeStyleSettings version="0">
+  <JSCodeStyleSettings version="0">
     <option name="USE_DOUBLE_QUOTES" value="false" />
-  </TypeScriptCodeStyleSettings>
+    <option name="FORCE_QUOTE_STYlE" value="true" />
+  </JSCodeStyleSettings>
 </code_scheme>

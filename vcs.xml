@@ -15,11 +15,31 @@
           <option name="userName" value="ddafen" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="https://gitlab.com/ng-web-scrapper/web-scrapper-core.git" />
+          <option name="url" value="git@github.com:dimitrisafendras/FE-WebCrawler.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
         <UrlAndUserName>
-          <option name="url" value="git@gitlab.camelot.global:illinois/excalibur-mobile-app.git" />
+          <option name="url" value="https://gitlab.com/DimitrisZx/first-gitlab-project.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://gitlab.com" />
+          <option name="userName" value="dimitris.afendras" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/FoteiniK/gitproject.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/joan.vret/academy-eshop.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/elenigkinni/agileproject.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.com/dimvar/dimitrisvarlearning.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
       </list>
