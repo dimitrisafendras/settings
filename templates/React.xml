@@ -111,6 +111,7 @@
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
@@ -285,6 +286,7 @@
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
