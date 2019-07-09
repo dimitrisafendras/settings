@@ -1,0 +1,13 @@
+<application>
+  <component name="SettingsState">
+    <option name="gitlabServers">
+      <list>
+        <GitlabServer>
+          <option name="apiToken" value="jyhXCJ_jyHXNuPP_b31Z" />
+          <option name="apiUrl" value="https://gitlab.camelot.global/" />
+          <option name="repositoryUrl" value="gitlab.camelot.global" />
+        </GitlabServer>
+      </list>
+    </option>
+  </component>
+</application>
