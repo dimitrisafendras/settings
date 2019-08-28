@@ -4,7 +4,7 @@
     <property name="created">2018-01-26T10:47:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2019-08-28T20:59:57</property>
+    <property name="modified">2019-08-28T21:09:33</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -79,7 +79,7 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="cfd8dc" />
+        <option name="FOREGROUND" value="bbdefb" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -194,12 +194,6 @@
         <option name="FOREGROUND" value="808080" />
       </value>
     </option>
-    <option name="JS.CLASS">
-      <value>
-        <option name="FOREGROUND" value="cfd8dc" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
     <option name="JS.FUNCTION_ARROW">
       <value>
         <option name="FOREGROUND" value="cfd8dc" />
@@ -236,11 +230,9 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JS.MODULE_NAME">
+    <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="cfd8dc" />
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="5" />
+        <option name="FOREGROUND" value="c5cae9" />
       </value>
     </option>
     <option name="JS.SEMICOLON">
