@@ -4,7 +4,7 @@
     <property name="created">2018-01-26T10:47:54</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.3.0.0</property>
-    <property name="modified">2019-08-28T21:09:33</property>
+    <property name="modified">2019-08-28T21:52:46</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -40,6 +40,13 @@
       <value>
         <option name="FOREGROUND" value="c5cae9" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="cfd8dc" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -79,7 +86,8 @@
     </option>
     <option name="DEFAULT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="bbdefb" />
+        <option name="FOREGROUND" value="cfd8dc" />
+        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -99,6 +107,13 @@
       <value>
         <option name="FOREGROUND" value="1e88e5" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="7986cb" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_METADATA">
@@ -214,14 +229,12 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="fb8c00" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="ffb74d" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="7986cb" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="64b5f6" />
       </value>
     </option>
     <option name="JS.LOCAL_FUNCTION">
@@ -230,11 +243,7 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JS.LOCAL_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="c5cae9" />
-      </value>
-    </option>
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.SEMICOLON">
       <value>
         <option name="FOREGROUND" value="fb8c00" />
